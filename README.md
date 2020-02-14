@@ -149,3 +149,5 @@ arguments: --build-arg SNYK_TOKEN=$(SNYKTOKEN)
 The value for the SNYK_TOKEN is defines as a variable in the Azure Pipelines. Name the varible `SNYKTOKEN`
 
 There are quite a few other ways to integrate Snyk with Azure Pipelines.
+
+__
