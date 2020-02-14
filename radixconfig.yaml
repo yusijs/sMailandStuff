@@ -4,8 +4,6 @@ metadata:
   name: smailandstuff
 spec:
   build:
-    secrets:
-      - SNYK_TOKEN
   environments:
     - name: production
       build:
@@ -22,7 +20,7 @@ spec:
         - environment: production
           variables:
             TENANTID: "3aa4a235-b6e2-48d5-9195-7fcf05b459b0"
-            CLIENTID: "bc5ee045-a194-4c04-acf9-1718f58bf5c6"
+            CLIENTID: "71a4023e-1230-4c09-84e2-cb587c433dad"
             NODE_ENV: "development"
       secrets:
         - CLIENTSECRET
