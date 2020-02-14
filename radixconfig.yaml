@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: smailandstuff
+  name: rlsmailandstuff
 spec:
   build:
   environments:
